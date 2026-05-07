@@ -42,6 +42,15 @@ HEROKU_APP_NAME = os.getenv('HEROKU_APP_NAME', '')
 
 ALLOWED_HOSTS = ['*']
 
+ALLOWED_HOSTS = [
+    "web-production-65eb.up.railway.app",
+    ".railway.app",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-65eb.up.railway.app",
+]
+
 if not PRODUCTION:
     ALLOWED_HOSTS += ['.localhost', '127.0.0.1', '[::1]']
 
