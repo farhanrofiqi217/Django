@@ -1,0 +1,84 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0f172a; /* dark background */
+  color: #e2e8f0;
+}
+
+/* HERO */
+.hero-section {
+  min-height: 90vh;
+  background: linear-gradient(135deg, #020617, #14532d);
+}
+
+/* TEXT */
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  color: #cbd5f5;
+}
+
+/* BUTTON */
+.btn-success {
+  background: #22c55e;
+  border: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background: #16a34a;
+  color: white;
+}
+
+/* FEATURES SECTION */
+section {
+  background: #020617;
+}
+
+/* CARD */
+.feature-card {
+  background: #020617;
+  color: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+  transition: 0.3s;
+}
+
+.feature-card p {
+  color: #94a3b8;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+/* NAVBAR */
+.navbar {
+  background: rgba(2, 6, 23, 0.8) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  color: #94a3b8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
